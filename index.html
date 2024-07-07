@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Decoder Fox</title>
+    <link rel="shortcut icon" href="assets/fox1.svg" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <div>
+            <img src="assets/fox.png" alt="Imagem de uma raposa em formato de desenho" class="logo">
+        </div>
+            <section>
+            <form class="container-principal">
+                <textarea class="input-texto" placeholder="Digite seu texto"
+                id="ipnut"
+                name="input"
+                rows="15"
+                cols="50"
+                ></textarea>
+                <div class="mensagem-informacao">
+                    <img src="assets/exclamation.png">
+                    <p>Apenas letras minúsculas e sem acento.</p>
+                </div> 
+                <div class="buttons-area">
+                    <button class="buttons criptografar">Criptografar</button>
+                    <button class="buttons descriptografar">Descriptografar</button>
+                </div>
+            </form>
+        </section> 
+        <section>
+            <div class="output">
+                <img class="output-img" src="assets/imagem-ouput.png">
+                <h2>Nenhuma mensagem encontrada 🫤</h2>
+            </div>       
+        </section>            
+    </main>
+    <footer class="rodape">
+        <div>
+            <a href="https://github.com/Rinelly" target="_blank" ><ion-icon name="logo-github"></ion-icon></a>
+            <a href="https://www.linkedin.com/in/rinelly-vasconcelos-989297142/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+        </div>
+        <h3 >Desenvolvido por Rinelly Vasconcelos 🏵️</h3>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
