@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Decoder Fox</title>
@@ -14,9 +14,9 @@
             <img src="assets/fox.png" alt="Imagem de uma raposa em formato de desenho" class="logo">
         </header>
             <section>
-            <form class="container-principal">
-                <textarea id="input-texto" placeholder="Digite seu texto"
-                id="ipnut"
+            <form class="container-principal" id="formulario">
+                <textarea placeholder="Digite seu texto"
+                id="inputTexto"
                 name="input"
                 rows="15"
                 cols="50"
@@ -26,15 +26,17 @@
                     <p>Apenas letras minúsculas e sem acento.</p>
                 </div> 
                 <div class="buttons-area">
-                    <button class="buttons criptografar">Criptografar</button>
-                    <button class="buttons descriptografar">Descriptografar</button>
+                    <button type="button" class="buttons criptografar" id="btnCriptografar">Criptografar</button>
+                    <button type="button" class="buttons descriptografar" id="btnDescriptografar">Descriptografar</button>
                 </div>
             </form>
         </section> 
         <section>
             <div id="output">
-                <img class="output-img" src="assets/imagem-ouput.png">
-                <h2>Nenhuma mensagem encontrada 🫤</h2>
+                <h2 id="textoOutput"></h2>
+                <img id="raposa-img"class="output-img" src="assets/imagem-ouput.png">
+                <h3>Nenhuma mensagem encontrada 🫤</h3>
+                <button type="button" id="botaoCopiar" class="buttons botao-copiar">Copiar</button>
             </div>       
         </section>            
     </main>
@@ -43,12 +45,10 @@
             <a href="https://github.com/Rinelly" target="_blank" ><ion-icon name="logo-github"></ion-icon></a>
             <a href="https://www.linkedin.com/in/rinelly-vasconcelos-989297142/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
         </div>
-        <h3 >Desenvolvido por Rinelly Vasconcelos 🏵️</h3>
+        <h4>Desenvolvido por Rinelly Vasconcelos 🏵️</h4>
     </footer>
-
+    <script src="app.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <script src="app.js"></script>
-
 </body>
 </html>
