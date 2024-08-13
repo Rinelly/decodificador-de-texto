@@ -140,11 +140,6 @@ h3 {
     align-items: center;
 }
 
-h4 {
-    display: none;
-    
-}
-
 .rodape {
     display: flex;
     flex-direction: column;

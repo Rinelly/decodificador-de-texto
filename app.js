@@ -1,3 +1,4 @@
+
 //* função para exibir textos de saída 
 const exibirTextoSaida = (tag, texto) => {
     const textoSaida = document.querySelector(tag);
@@ -76,7 +77,7 @@ const botaoCopiarTexto = async () => {
         await navigator.clipboard.writeText(textoCopiado);
         document.getElementById("textoOutput").innerText = "";
         document.getElementById("textoOutput").style.visibility = "hidden";
-        alert("Copiado");
+        alert("Copiado para área de transferência.");
         outputOriginal();
     } catch (err) {
         console.error("Erro ao copiar o texto: ", err);
@@ -84,19 +85,16 @@ const botaoCopiarTexto = async () => {
     }
 }
 
-//*função para reaparecer imagem e esconder o botão copiar 
+// //*função para reaparecer imagem e esconder o botão copiar 
 const outputOriginal = () => {
     document.getElementById("botaoCopiar").style.visibility = "hidden";
     document.getElementById("textoOutput").style.visibility = "hidden";
     document.getElementById("raposa-img").style.display = "block";
-    document.querySelector("h4").style.display = "block";
+    location.reload();
 }
 
 document.getElementById("btnCriptografar").addEventListener("click", criptografar);
 document.getElementById("btnDescriptografar").addEventListener("click", descriptografar);
 document.getElementById("botaoCopiar").addEventListener("click", botaoCopiarTexto);
-
     
-
-
 
