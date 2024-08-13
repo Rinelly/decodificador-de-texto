@@ -1,6 +1,6 @@
 # Olá, sejam bem vindos! 😃 
 
-<h1 style="color: orange">Decoder Fox 🦊</h1>
+<h1 style="color:orange">Decoder Fox 🦊</h1>
 
 <h3>▪️ O codificador e decodificador de textos</h3>
 
@@ -16,12 +16,12 @@ A letra "a" é convertida para "ai"<br>
 A letra "o" é convertida para "ober"<br>
 A letra "u" é convertida para "ufat"<br>
 
-<h2 style="color: orange">▪️ Tema - Raposa 🦊 </h2> <br>
+<h2 style="color:orange">▪️ Tema - Raposa 🦊</h2> <br>
 
-Para desenvolver o programa usei como base o layout do figma fornecido pela Alura, porém personalizei o esquema de cores e imagens, para isso escolhi a paleta de cores baseada no <span style="color: orange">laranja</span> e a imagem de uma raposa segurando uma lupa, criada por IA. 
+Para desenvolver o programa usei como base o layout do figma fornecido pela Alura, porém personalizei o esquema de cores e imagens, para isso escolhi a paleta de cores baseada no <span style="color:orange">laranja</span> e a imagem de uma raposa segurando uma lupa, criada por IA. 
 <br><br>
 
-<img src="assets/decoderfox.png" width="50%"><br> <hr>
+<img src="assets/decoderfox.png" width="50%"><br> 
 
 <h2>▪️ Tecnologias utilizadas: 💻</h2>
 
