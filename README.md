@@ -37,7 +37,7 @@ Para desenvolvimento do programa, utilizei HTML, CSS e JavaScript. Aproveitei pa
 Função para exibir textos de saída;<br>
 
 -```output()```<br>
-Função para ocultar uma imagem, limpar um h3 e mostrar o botão de copiar;<br>
+Função para ocultar a imagem, limpar o h3 e mostrar o botão de copiar;<br>
 
 -```removeDiacritics(str)```<br>
 Função para remover diacríticos;<br>
