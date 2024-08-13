@@ -29,9 +29,8 @@ Para desenvolver o programa usei como base o layout do figma fornecido pela Alur
 
 <br>
 
-Para desenvolvimento do programa, utilizei HTML, CSS e JavaScript. <br>
+Para desenvolvimento do programa, utilizei HTML, CSS e JavaScript. Aproveitei para colocar alguns estudos recentes em prática, como o uso de arrow function e funções assíncronas. <br>
 <h3>▪️ Explicando as funções no JavaScript</h3>
-Aproveitei para colocar alguns estudos recentes em prática, como o uso de arrow function e funções assíncronas. 
 <br>
 
 -```exibirTextoSaida(tag, texto)```<br> 
