@@ -8,32 +8,31 @@ Esse é um projeito para entrega do Challenge do curso de formação de iniciant
 
 O obejtivo do desafio é criar um programa para criptografar e descriptografar textos seguindo as instruções do desafio.
 
-<h3>▪️ As "chaves" que foram utilizadas para a criptografia são: 🗝️</h3> <hr>
+<h3>▪️ As "chaves" que foram utilizadas para a criptografia: 🗝️</h3> <br>
+
 A letra "e" é convertida para "enter"<br>
 A letra "i" é convertida para "imes"<br>
 A letra "a" é convertida para "ai"<br>
 A letra "o" é convertida para "ober"<br>
 A letra "u" é convertida para "ufat"<br>
 
-<h2 style="color: orange">▪️ Tema - Raposa 🦊 </h2>
-<hr>
-Para desenvolver o programa usei como base o layout do figma fornecido pela Alura, porém personalizei o esquema de cores e imagens, para isso escolhi a paleta de cores baseada no <span style="color: orange">laranja</span> e a imagem de uma raposa segurando uma lupa, criada por IA. 
+<h2 style="color: orange">▪️ Tema - Raposa 🦊 </h2> <br>
 
-<br>
+Para desenvolver o programa usei como base o layout do figma fornecido pela Alura, porém personalizei o esquema de cores e imagens, para isso escolhi a paleta de cores baseada no <span style="color: orange">laranja</span> e a imagem de uma raposa segurando uma lupa, criada por IA. 
+<br><br>
 
 <img src="assets/decoderfox.png" width="50%"><br> <hr>
 
 <h2>▪️ Tecnologias utilizadas: 💻</h2>
 
-<img src="assets/logo-html.svg" width="50px%">   
-<img src="assets/css.svg" width="50px%">    
-<img src="assets/js.svg" width="50px">
+<img src="assets/logo-html.svg" width="50px%"> <img src="assets/css.svg" width="50px%"> <img src="assets/js.svg" width="50px">  
+
 <br>
 
 Para desenvolvimento do programa, utilizei HTML, CSS e JavaScript. <br>
 <h3>▪️ Explicando as funções no JavaScript</h3>
 Aproveitei para colocar alguns estudos recentes em prática, como o uso de arrow function e funções assíncronas. 
-<hr>
+<br>
 
 -```exibirTextoSaida(tag, texto)```<br> 
 Função para exibir textos de saída;<br>
