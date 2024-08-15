@@ -78,19 +78,11 @@ const botaoCopiarTexto = async () => {
         document.getElementById("textoOutput").innerText = "";
         document.getElementById("textoOutput").style.visibility = "hidden";
         alert("Copiado para área de transferência.");
-        outputOriginal();
+        location.reload();
     } catch (err) {
         console.error("Erro ao copiar o texto: ", err);
         alert("Erro ao copiar o texto");
     }
-}
-
-// //*função para reaparecer imagem e esconder o botão copiar 
-const outputOriginal = () => {
-    document.getElementById("botaoCopiar").style.visibility = "hidden";
-    document.getElementById("textoOutput").style.visibility = "hidden";
-    document.getElementById("raposa-img").style.display = "block";
-    location.reload();
 }
 
 document.getElementById("btnCriptografar").addEventListener("click", criptografar);
