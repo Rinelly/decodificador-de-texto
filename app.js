@@ -18,7 +18,7 @@ const output = () => {
 }
 
 //*função para remover diacriticos
-const removeDiacritics = (str) => {
+const removerDiacriticos = (str) => {
     return str
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
@@ -30,7 +30,7 @@ const criptografar = () => {
     const inputTexto = document.querySelector("#inputTexto").value;
 
     if (inputTexto.trim() != ""){
-        const textoCriptografado = removeDiacritics(inputTexto.toLowerCase())
+        const textoCriptografado = removerDiacriticos(inputTexto.toLowerCase())
                 .replace(/e/g, "enter")
                 .replace(/i/g, "imes")
                 .replace(/a/g, "ai")
